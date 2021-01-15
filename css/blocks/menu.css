@@ -5,6 +5,10 @@
     flex-wrap: wrap;
 }
 
+.menu--black .menu__list {
+    justify-content: flex-start;
+}
+
 .menu__item {
     font-weight: 600;
     font-size: 18px;
@@ -19,12 +23,20 @@
     margin-left: 0;
 }
 
+.menu--black .menu__item {
+    color: #000;
+}
+
 .menu__link {
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
     transition-property: color;
     transition-duration: 500ms;
+}
+
+.menu--black .menu__link {
+    color: #000;
 }
 
 .menu__link:hover, 
@@ -50,7 +62,7 @@
 }
 
 @media (max-width: 768px) {
-    .menu__list {
+    .menu__list, .menu--black .menu__list {
         justify-content: center;
     }
 }

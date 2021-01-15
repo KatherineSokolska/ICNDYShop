@@ -55,6 +55,10 @@
     width: 84px;
     height: 42px;
     cursor: pointer;
+    animation-name: animatearrow;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
 }
 
 @media (max-width: 1280px) {
@@ -91,5 +95,17 @@
 
     .header__link:hover {
         letter-spacing: 9px;
+    }
+}
+
+@keyframes animatearrow {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(25px);
+    }
+    100% {
+        transform: translateY(0px);
     }
 }
