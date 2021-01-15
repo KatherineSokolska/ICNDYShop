@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'proxima';
+    src: url('../fonts/ProximaNova-Black.woff') format('woff');
+    font-weight: normal;
+    font-style: 800;
+    }
+
+@font-face {
+    font-family: 'proxima';
+    src: url('../fonts/ProximaNova-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'proxima';
+    src: url('../fonts/ProximaNova-Bold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+
